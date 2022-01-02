@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div class="
+        inputCenter
+        text-center
+        border border-3 border-dark
+        container
+        rounded-pill
+        p-5
+        mt-1
+      ">
+        <h1>To-Do App</h1>
+        <input type="text" placeholder="Add an item" id="inputValue" />
+        <button class="btn btn-primary btn-sm" type="button" onclick="getValue()">
+        Add
+      </button>
+        <button class="btn btn-primary btn-sm" type="button" onclick="clearList()">
+        Clear List
+      </button>
+    </div>
+
+    <div class="container p-5 d-flex justify-content-center">
+        <ol id="mainTaskSection"></ol>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
